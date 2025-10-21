@@ -4,7 +4,7 @@ title: Schematic
 
 ## Overview
 
-This schematic is design to support .... (highlight functionally, power, and controller).
+This schematic is design to support a water-quality monitoring system. This subsystem functions as a user interface, supporting up to 4 sensor boards to be added to it. It features a speaker to alert the user of dangerous levels, as well as a screen and button interface. 
 
 
 ![schematic](Individual_Subsystem_Image.png){style width:"350" height:"300;"}
