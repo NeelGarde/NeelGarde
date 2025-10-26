@@ -28,15 +28,6 @@
 
 **Decision:** The [NHD-0420AZ-FSW-GBW-33V3](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-0420AZ-FSW-GBW-33V3/2773596) will be chosen to allow for more complex data or text to be displayed. The cost is slightly higher than other models, but the increased readability, size, and well documented programming offsets this.
 
-**LCD Screen**
-
-| Image | Product | Price | Pros | Cons |
-| :---- | :---- | :---- | :---- | :---- |
-| **![NHD-0216K1Z-NSW-BBW-L][image7]** | [NHD-0216K1Z-NSW-BBW-L](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-0216K1Z-NSW-BBW-L/1701179) | $7.92 | Programming is clearly described 4-bit more to save lane count 2 lines of characters Built in controller | May not show well in bright light or an angle |
-| ![NHD-C0220BiZ-FSW-FBW-3V3M][image8] | [NHD-C0220BIZ-FSW-FBW-3V3M](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-C0220BIZ-FSW-FBW-3V3M/2626407) | $11.41 | Easy to read in bright light 2 lines of characters Built in controller | More complicated but well documented programming No 8-bit mode for higher control  |
-| ![][image9] | [NHD-0420AZ-FSW-GBW-33V3](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-0420AZ-FSW-GBW-33V3/2773596) | $13.64 | 4 lines of characters Easy readability in bright light Built in controller Optional 4 bit mode | Requires more space on enclosure |
-
-**Decision:** The [NHD-0420AZ-FSW-GBW-33V3](https://www.digikey.com/en/products/detail/newhaven-display-intl/NHD-0420AZ-FSW-GBW-33V3/2773596) will be chosen to allow for more complex data or text to be displayed. The cost is slightly higher than other models, but the increased readability, size, and well documented programming offsets this.
 
 **Switch button** 
 
