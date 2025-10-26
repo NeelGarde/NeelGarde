@@ -11,23 +11,21 @@ as part of<br>
 for<br>
 <font size= "5"> Team ### </font><br>
 
-**Submission: month, DD, YYYY**
+**Submission: October, 27, 2025**
 </center>
 
 ## Introduction
 
-* Neel Garde's projects during EGR304
+* Neel Garde's individual EGR304 subsystem datasheet 
 ### Project Summary
 
-* This needs to be updated to reflect <ins>your version</ins> of the team project, so when shared not via the team's report, the reader gets an idea of the direction of the project and how your work will contribute to the overall success.
-* Add context that ties into the link to your [team report.](https://embedded-systems-design.github.io/EGR304TeamTemplate/)
+* This is the datasheet for Neel Garde's subsystem of Team 210's water quality monitoring device - see [team report.](https://egr304-2025-f-210.github.io/)
 
 
 ### My Contribution
 
-* This needs to be updated to reflect a team introduction
-* Content should also help an unfamiliar reader navigate to areas of interest. Information like:
-
-To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR304DataSheetTemplate/03-BOM/BOM/) section of the datasheet.
-
-For all the sections
+* My contribution to the team project is the controller/user interface subsystem.
+* This subsystem serves as a motherboard to connect and control the other three sensor subsystems to make a functional water quality monitoring device
+* To review the system's schematic, you can review it in the ["schematic"](https://neelgarde.github.io/NeelGarde/04-Schematic/schematic/) section of the datasheet
+* To review ta block diagram of the system, you can review it in the ["block diagram"](https://neelgarde.github.io/NeelGarde/01-Block-Diagram/Block-Diagram/) section of the datasheet
+* To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://neelgarde.github.io/NeelGarde/03-BOM/BOM/) section of the datasheet.
