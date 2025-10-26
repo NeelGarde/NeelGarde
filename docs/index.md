@@ -7,9 +7,9 @@ tags:
 <center>
 <font size= "6">Neel Garde Datasheet</font><br>
 as part of<br>
-<font size= "8"> Project Name</font><br>
+<font size= "8">Water Quality Monitor/font><br>
 for<br>
-<font size= "5"> Team ### </font><br>
+<font size= "5"> Team 210 </font><br>
 
 **Submission: October, 27, 2025**
 </center>
