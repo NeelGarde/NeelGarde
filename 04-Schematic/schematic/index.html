@@ -865,6 +865,44 @@
 <p><strong>Figure 1:</strong> Controller subsystem schematic.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../IndividualSubsystemImage.png" data-desc-position="bottom"><img alt="schematic" src="../IndividualSubsystemImage.png"></a></p>
 <h2 id="design-process">Design Process</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Element</th>
+<th style="text-align: left;">Design Process</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;">MCU pin assignments</td>
+<td style="text-align: left;">Allocated by datasheet</td>
+</tr>
+<tr>
+<td style="text-align: left;">8-pin header pin assignments</td>
+<td style="text-align: left;">Project specification</td>
+</tr>
+<tr>
+<td style="text-align: left;">Switch pull-up resistors</td>
+<td style="text-align: left;">From my research, the pull-up size can be within an  acceptable range and min and max size can be calculated with the current and capacitance of the MCU pins. If the MCU is not especially sensitive, 10k is a generally accepted standard for 5V microcontrollers.</td>
+</tr>
+<tr>
+<td style="text-align: left;">Debouncing low-pass filter (RC)</td>
+<td style="text-align: left;">Using the relationship debouncetime \= 5RC, and an arbitrary debounce of 10 ms (assumed to be a reasonable time for a human to make a confident input without becoming annoying), and a capacitor value of 0.1 uF to keep physical size down, I calculated a 20kOhm resistor would be suitable.</td>
+</tr>
+<tr>
+<td style="text-align: left;">LCD header pin assignments</td>
+<td style="text-align: left;">Allocated by datasheet</td>
+</tr>
+<tr>
+<td style="text-align: left;">Speaker design</td>
+<td style="text-align: left;">Design from in-class lab updated with datasheet for specific speaker used</td>
+</tr>
+<tr>
+<td style="text-align: left;">Power supplies</td>
+<td style="text-align: left;">Basic design from datasheets. A second 5V input with a diode and fuse was added to the 3.3V regulator to allow functioning when being powered by another subsystem. The diodes and fuse are to prevent the 9V supply from being connected to the 5V rail.</td>
+</tr>
+</tbody>
+</table>
 <h2 id="resouces">Resouces</h2>
 <p>The schematic as a PDF download is available <a href="../IndividualSubsystemPDF.pdf"><em>here</em></a>, and the Zip folder of the project <a href="../Individual%20Subsystem.zip"><em>here</em></a>.</p>
 
