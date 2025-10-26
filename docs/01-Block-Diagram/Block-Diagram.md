@@ -13,8 +13,6 @@ The main contribution to this project by myself is the motherboard unit, which w
 * Actuator: A speaker will be used for warnings
 * team connections: 3 other teammates will connect via digital signaling to give sensor data in numerial format via UART
 * Power source: 9V battery
-* ...
-
 
 ## Block Diagram 
 
