@@ -16,5 +16,5 @@ This schematic is design to support a water-quality monitoring system. This subs
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](Individual Subsystem.pdf), and the Zip folder of the project [*here*](Individual Subsystem.zip).
+The schematic as a PDF download is available [*here*](IndividualSubsystemPDF.pdf), and the Zip folder of the project [*here*](Individual Subsystem.zip).
 
