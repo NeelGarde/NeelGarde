@@ -8,7 +8,7 @@ This schematic is design to support a water-quality monitoring system. This subs
 
 **Figure 1:** Controller subsystem schematic.
 
-![schematic](IndividualSubsystemImage.png){style width:"350" height:"300;"}
+![schematic](IndividualSubsystemImage.png)
 
 ## Design Process
 
