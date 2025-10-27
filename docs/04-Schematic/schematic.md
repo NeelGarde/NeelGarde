@@ -18,8 +18,8 @@ This schematic is design to support a water-quality monitoring system. This subs
 | 8-pin header pin assignments | Project specification |
 | Switch pull-up resistors | From my research, the pull-up size can be within an  acceptable range and min and max size can be calculated with the current and capacitance of the MCU pins. If the MCU is not especially sensitive, 10k is a generally accepted standard for 5V microcontrollers. |
 | Debouncing low-pass filter (RC) | Using the relationship debouncetime \= 5RC, and an arbitrary debounce of 10 ms (assumed to be a reasonable time for a human to make a confident input without becoming annoying), and a capacitor value of 0.1 uF to keep physical size down, I calculated a 20kOhm resistor would be suitable. |
-| LCD header pin assignments | Allocated by datasheet |
-| Speaker design | Design from in-class lab updated with datasheet for specific speaker used |
+| LCD header pin assignments | Pins allocated by datasheet. A level shifter is used to translate the 5V logic from the PIC to the 3.3V logic required by the LCD controller daughterboard. |
+| Speaker design | Design from in-class lab updated with datasheet for specific speaker used. A voltage divider was added to better suit the speaker's frequency-voltage chart. |
 | Power supplies | Basic design from datasheets. A second 5V input with a diode and fuse was added to the 3.3V regulator to allow functioning when being powered by another subsystem. The diodes and fuse are to prevent the 9V supply from being connected to the 5V rail. |
 
 ## Resouces
