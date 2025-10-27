@@ -3,7 +3,7 @@
 | Image | Product | Price | Pros | Cons |
 | :---- | :---- | :---- | :---- | :---- |
 | **![TO-220-3][image1]** | [LM1117T-3.3/NOPB](https://www.digikey.com/en/products/detail/texas-instruments/LM1117T-3-3-NOPB/363593) | $1.61 | high current overhead (800mA) Integrated heatsink | bulky |
-| ![TL431BQLP][image2] | LP2950-33LPE3 | $1.37 | compact  | Pins are closer together for peralta milling, may require spreading |
+| ![TL431BQLP][image2] | [LP2950-33LPE3](https://www.digikey.com/en/products/detail/texas-instruments/LP2950-33LPE3/1510727?msockid=31879fc0bc8c69ad003289a1bd7a6867) | $1.37 | compact  | Pins are closer together for peralta milling, may require spreading |
 | ![TO-92-3][image3] | [LE33CZ-AP](https://www.digikey.com/en/products/detail/stmicroelectronics/LE33CZ-AP/1038465) | $1.01 | Compact Pins are well spread cheap | none |
 
 **Decision:** The [LE33CZ-AP](https://www.digikey.com/en/products/detail/stmicroelectronics/LE33CZ-AP/1038465) will be chosen for it’s size, cost, and ease of assembly with the peralta mill specs. Since the LCD subsystem and level shifters won’t draw more than 10mA, the 100mA rating is more than sufficient.
