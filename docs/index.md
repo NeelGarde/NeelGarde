@@ -7,13 +7,13 @@ tags:
 <center>
 <font size= "6">Neel Garde Datasheet</font><br>
 as part of<br>
-<font size= "8">Water Quality Monitor/font><br>
+<font size= "8">Water Quality Monitor</font><br>
 for<br>
 <font size= "5"> Team 210 </font><br>
 
 **Submission: October, 27, 2025**
 </center>
-
+<font size= "10">
 ## Introduction
 
 * Neel Garde's individual EGR304 subsystem datasheet 
@@ -29,3 +29,4 @@ for<br>
 * To review the system's schematic, you can review it in the ["schematic"](https://neelgarde.github.io/NeelGarde/04-Schematic/schematic/) section of the datasheet
 * To review ta block diagram of the system, you can review it in the ["block diagram"](https://neelgarde.github.io/NeelGarde/01-Block-Diagram/Block-Diagram/) section of the datasheet
 * To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://neelgarde.github.io/NeelGarde/03-BOM/BOM/) section of the datasheet.
+</font>
