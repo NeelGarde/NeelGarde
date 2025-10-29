@@ -14,15 +14,15 @@ for<br>
 **Submission: October, 27, 2025**
 </center>
 <font size= "10">
-## Introduction
+Introduction
 
 * Neel Garde's individual EGR304 subsystem datasheet 
-### Project Summary
+Project Summary
 
 * This is the datasheet for Neel Garde's subsystem of Team 210's water quality monitoring device - see [team report.](https://egr304-2025-f-210.github.io/)
 
 
-### My Contribution
+My Contribution
 
 * My contribution to the team project is the controller/user interface subsystem.
 * This subsystem serves as a motherboard to connect and control the other three sensor subsystems to make a functional water quality monitoring device
