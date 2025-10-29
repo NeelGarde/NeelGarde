@@ -5,21 +5,21 @@ tags:
 - tag2
 ---
 <center>
-<font size= "6">Neel Garde Datasheet</font><br>
+<font size= "6">Neel Garde Datasheet<br>
 as part of<br>
-<font size= "8">Water Quality Monitor</font><br>
+<font size= "8">Water Quality Monitor<br>
 for<br>
-<font size= "5"> Team 210 </font><br>
+<font size= "5"> Team 210 <br>
 
 **Submission: October, 27, 2025**
 </center>
-<font size= "10">
-Introduction
 
-* Neel Garde's individual EGR304 subsystem datasheet 
-Project Summary
+<font size= "8">Introduction
 
-* This is the datasheet for Neel Garde's subsystem of Team 210's water quality monitoring device - see [team report.](https://egr304-2025-f-210.github.io/)
+<font size= "6">Neel Garde's individual EGR304 subsystem datasheet 
+<font size= "6">Project Summary
+
+<font size= "6">This is the datasheet for Neel Garde's subsystem of Team 210's water quality monitoring device - see [team report.](https://egr304-2025-f-210.github.io/)
 
 
 My Contribution
