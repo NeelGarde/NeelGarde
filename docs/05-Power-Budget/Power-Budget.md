@@ -5,7 +5,9 @@ title: Power Budget
 ## Overview
 As this subsystem involves multiple active components and an actuator, a power budget was required to ensure that the two main rails and regulators would be sufficient, and that our plan of sharing a 5V rail from the pH sensor subsystem would be feasible.
 
-![budget](IndividualPowerBudgetImage.png)
+![sc1](sc1.png)
+![sc2](sc2.png)
+![sc3](sc3.png)
 
 ## Conclusions
 
