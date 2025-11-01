@@ -10,6 +10,13 @@ This schematic is design to support a water-quality monitoring system. This subs
 
 ![schematic](IndividualSubsystemImage.png)
 
+## Requirements Compliance
+The schematic as shown fully satisfies user needs and product requirements as following:
+* The user need of an easy-to-use interface is satisfied by the 4-button interface. Many users will be familiar with this kind of interface, as it is found on many devices such as smart appliances, cars, computers, and ATMs. 
+* The large LCD screen offers an easily readable way of displaying the sensor values to an untrained user, showing both the current value and the expected safe thresholds on the screen at once.
+* The RC filters connected to each button satisfy project requirements of debouncing all buttons. The pull-up configuration of the buttons serves the purpose of working with the PIC18F's requirement to not leave connected I/O pins floating.
+*
+
 ## Design Process
 
 | Element | Design Process |
