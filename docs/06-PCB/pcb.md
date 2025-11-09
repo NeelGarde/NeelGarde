@@ -7,7 +7,7 @@ This is a manufacturable PCB for Peralta Labs to create the controller board.
 
 ![pcb front](front.png)
 PCB front
-![pcb back](back.png)
+![pcb back](backPCB.png)
 PCB rear
 
 ## Resouces
