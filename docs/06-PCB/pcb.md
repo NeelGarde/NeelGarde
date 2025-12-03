@@ -10,7 +10,7 @@ PCB front
 ![pcb back](backPCB.png)
 PCB rear
 
-## Resouces
+## Resources
 
 The KiCAD project folder is available [*here*](IndividualSubsystem.zip).
 The gerber files for the PCB are available [*here*](gerbers.zip).
