@@ -124,4 +124,4 @@ int main(void)
 
 ## Resources
 
-The MPLAB IDE project is available here [*here*](vw_ds_c.zip).
+The MPLAB IDE project is available [*here*](vw_ds_c.zip).
