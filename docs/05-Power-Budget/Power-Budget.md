@@ -5,9 +5,7 @@ title: Power Budget
 ## Overview
 As this subsystem involves multiple active components and an actuator, a power budget was required to ensure that the two main rails and regulators would be sufficient, and that our plan of sharing a 5V rail from the pH sensor subsystem would be feasible.
 
-![sc1](sc1.png)
-![sc2](sc2.png)
-![sc3](sc3.png)
+![pbf](powerbudgetfinal.png)
 
 ## Conclusions
 
@@ -15,4 +13,4 @@ The power draw of the controller subsystem is minimal when the speaker is off, a
 
 ## Resouces
 
-The power budget as a PDF download is available [*here*](IndividualPowerBudget.pdf), and a Microsoft Excel Sheet [*here*](Group210PowerBudget.xlsx).
+The power budget as a PDF download is available [*here*](finalPB.pdf), and a Microsoft Excel Sheet [*here*](EGR304_team210_power_budget.xlsx).
