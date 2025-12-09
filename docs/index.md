@@ -27,6 +27,6 @@ My Contribution
 * My contribution to the team project is the controller/user interface subsystem.
 * This subsystem serves as a motherboard to connect and control the other three sensor subsystems to make a functional water quality monitoring device
 * To review the system's schematic, you can review it in the ["schematic"](https://neelgarde.github.io/NeelGarde/04-Schematic/schematic/) section of the datasheet
-* To review ta block diagram of the system, you can review it in the ["block diagram"](https://neelgarde.github.io/NeelGarde/01-Block-Diagram/Block-Diagram/) section of the datasheet
+* To review the block diagram of the system, you can review it in the ["block diagram"](https://neelgarde.github.io/NeelGarde/01-Block-Diagram/Block-Diagram/) section of the datasheet
 * To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://neelgarde.github.io/NeelGarde/03-BOM/BOM/) section of the datasheet.
 </font>
