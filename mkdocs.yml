@@ -1,6 +1,6 @@
-site_name: EGR 314 Data Sheet Template
-site_url: https://embedded-systems-design.github.io/EGR314DataSheetTemplate
-repo_url: https://github.com/embedded-systems-design/EGR314DataSheetTemplate
+site_name: EGR 314 Neel Garde
+site_url: https://neelgarde.github.io/NeelGarde/
+repo_url: https://github.com/NeelGarde/NeelGarde
 edit_uri: edit/main/docs/
 theme:
   name: material
@@ -59,7 +59,7 @@ extra_javascript:
 not_in_nav: |
   static
   
-copyright: "Copyright &copy; 2026 team-name-here"
+copyright: "Copyleft &copy; 2026 Team 201"
 
 extra:
   generator: false
