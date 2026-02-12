@@ -20,10 +20,10 @@ for<br>
 
 ### Project Summary
 
-* TBD. 
+* Team 201 is developing a modular, multipurpose aquatic ROV designed primarily for inspection and monitoring of surface and shallow water conditions, intended for applications such as ship hull inspection, coast patrols and marine wildlife monitoring. 
 * Part of group 201's [team report.](https://egr314-s-2026-201.github.io/)
 
 ### My Contribution
 
-* TBD.
+* This datasheet focuses on my contribution to the project, subsystem A3. Subsystem A3 forms the ROV's onboard BLE server, which connects to the BLE client (subsystem A2) on the controller unit.
 * To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/04-BOM/BOM/) section of the datasheet.

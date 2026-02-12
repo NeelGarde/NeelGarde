@@ -4,62 +4,48 @@ title: Module's Selected Major Components
 
 ## Module's Selected Major Components
 
-The following sections are the selected major components necessary for  .....
-
->**For each of the following sections, use <ins>one of the two styles</ins> given near the end. *REMOVE THIS NOTE***
+The following sections are the selected major components necessary for subsystem A3:
 
 ### Power Management
 
-(**remove this note/placeholder**: this is where your 3.3 volt switching regulator, any other needed power regulator, and power source {if applicable} **THAT WERE SELECTED**)
+1. AP63203WU-7 buck switching regulator
 
-For more details, review the ["Appendix - Component Selection Process - Power Mangement"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#power-management) selection.
+    ![](AP63203WU7.jpg)
 
-### Sensor
+    * $0.71/each
+    * [link to product](https://www.digikey.com/en/products/detail/diodes-incorporated/AP63203WU-7/9858426)
 
-(**remove this note/placeholder**: if applicable, this is where your  **SELECTED** sensor is shown. Otherwise, remove this section.)
+    | Pros                                      | Cons                                                                   |
+    | ----------------------------------------- | ---------------------------------------------------------------------- |
+    | Inexpensive                               | Current capacity significantly higher than necessary, could be smaller |
+    | Small footprint                           |                                                                        |
+    | Low EMI                                   |                                                                        |
 
-For more details, review the ["Appendix - Component Selection Process - Sensor"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#sensor) selection.
+2. MP2317GJ-Z buck switching regulator
 
-### Actuator
+    ![](MP2317GJZ.webp)
 
-(**remove this note/placeholder**: if applicable, this is where your **Selected** the actuator items go, which includes both the driver and motor. Otherwise, remove this section.)
+    * $1.92/each
+    * [link to product](https://www.digikey.com/en/products/detail/monolithic-power-systems-inc/MP2317GJ-Z/7361391)
 
-For more details, review the ["Appendix - Component Selection Process - Actuator"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/Appendix/01-Componet-Selection/Component-Selection-Process/#actuator) selection.
+    | Pros                                      | Cons                                                                   |
+    | ----------------------------------------- | ---------------------------------------------------------------------- |
+    | Adjustable output                         | Expensive                                                              |
+    | Small footprint                           | No EMI specs mentioned                                                 |
+    |                                           |                                                                        |
 
------------
-> Remove the following before submitting! Use them to present the selected components
+3. TPS62172DSGR buck switching regulator
 
-### Style 1
+    ![](TPS62172DSGR.webp)
 
-> This is the example found in the assignment, uses more html
+    * $1.32/each
+    * [link to product](https://www.digikey.com/en/products/detail/texas-instruments/TPS62172DSGR/2833456)
 
-*Table 1: Example component selection*
+    | Pros                                      | Cons                                                                   |
+    | ----------------------------------------- | ---------------------------------------------------------------------- |
+    | Very compact                              | Leadless design requires additional assembly equipment                 |
+    | Low noise                                 |                                                                        |
 
-**External Clock Module**
 
-| **Component**                                                                                                                                                                                      | **Pros**                                                                                                                                    | **Cons**                                                                                            |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
-| ![](image1.png)<br> XC1259TR-ND surface mount crystal<br>$1/each<br>[link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)                 | \* Inexpensive[^1]<br>\* Compatible with PSoC<br>\* Meets surface mount constraint of project                                               | \* Requires external components and support circuitry for interface<br>\* Needs special PCB layout. |
 
-**Rationale:** A clock oscillator is easier ....
 
-### Style 2
-
-> Also acceptable, more markdown friendly
-
-**External Clock Module**
-
-1. XC1259TR-ND surface mount crystal
-
-    ![](image1.png)
-
-    * $1/each
-    * [link to product](http://www.digikey.com/product-detail/en/ECS-40.3-S-5PX-TR/XC1259TR-ND/827366)
-
-    | Pros                                      | Cons                                                             |
-    | ----------------------------------------- | ---------------------------------------------------------------- |
-    | Inexpensive                               | Requires external components and support circuitry for interface |
-    | Compatible with PSoC                      | Needs special PCB layout.                                        |
-    | Meets surface mount constraint of project |
-
-**Rationale:** A clock oscillator is easier ...
