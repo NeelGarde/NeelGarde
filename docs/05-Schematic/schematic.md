@@ -4,13 +4,13 @@ title: Module Schematic
 
 ## Overview
 
-This schematic is design to support .... (highlight functionally, power, and controller).
+This schematic is design to function as an onboard bluetooth low energy server for connecting to a remote control unit.
 
 
-![schematic](Screenshot.png){style width:"350" height:"300;"}
-**Figure ##:** Showing a example schematic.
+![schematic](A3V1.png){style width:"350" height:"300;"}
+**Figure ##:** Showing Subsystem A3's schematic
 
 
 ## Resouces
 
-The schematic as a PDF download is available [*here*](ExampleSchematic.pdf), and the Zip folder of the project [*here*](dummyZip.zip).
+The schematic as a PDF download is available [*here*](A3V1.pdf), and the Zip folder of the project [*here*](A3V1.zip).

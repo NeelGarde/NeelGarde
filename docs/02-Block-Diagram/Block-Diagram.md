@@ -12,6 +12,5 @@ Featured on this page is a block diagram for subsystem A2. This subsystem is res
 - Programming is done via the microUSB interface on the ESP32 microcontroller.
 - In order to facilitate remote control, the ESP32's bluetooth low-energy (BLE) module is used to communicate bidirectionally with subsystem A2 to send sensor data and recieve user input data.
 
-## Example Block Diagram 
-
-![A2 block diagram](block-diagram-v2.png)
+## Block Diagram 
+![A3 block diagram](BDV3.png)
