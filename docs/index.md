@@ -7,7 +7,7 @@ tags:
 <center>
 <font size= "6">Neel Garde's Datasheet</font><br>
 as part of<br>
-<font size= "8">EGR314 (name pending)</font><br>
+<font size= "8">EGR314 E-Fish&Sea</font><br>
 for<br>
 <font size= "5"> Team 201</font><br>
 
