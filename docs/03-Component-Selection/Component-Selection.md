@@ -6,7 +6,7 @@ title: Module's Selected Major Components
 
 The following sections are the selected major components necessary for subsystem A3:
 
-### Power Management
+### 3.3V Power Regulator
 
 1. AP63203WU-7 buck switching regulator
 
@@ -46,7 +46,47 @@ The following sections are the selected major components necessary for subsystem
     | Very compact                              | Leadless design requires additional assembly equipment                 |
     | Low noise                                 |                                                                        |
 
-The AP63203WU-7 will be selected due to it's affordability, ease of assembly, and wide input voltage level.
+### 5V Power Regulator
+
+1. AP63205WU-7 buck switching regulator
+
+    ![](AP63203WU7.jpg)
+
+    * $0.71/each
+    * [link to product](https://www.digikey.com/en/products/detail/diodes-incorporated/AP63205WU-7/9858424)
+
+    | Pros                                             | Cons                                                                   |
+    | ------------------------------------------------ | ---------------------------------------------------------------------- |
+    | Shares a footprint with AP3203WU-7 used for 3.3V | Current capacity significantly higher than necessary, could be smaller |
+    | Wide input voltage range                         |                                                                        |
+    | Low EMI                                          |                                                                        |
+
+2. MP2144GJ-Z buck switching regulator
+
+    ![](MP2144GJZ.jpg)
+
+    * $1.67/each
+    * [link to product](https://www.digikey.com/en/products/detail/monolithic-power-systems-inc/MP2317GJ-Z/7361391)
+
+    | Pros                                      | Cons                                                                               |
+    | ----------------------------------------- | ---------------------------------------------------------------------------------- |
+    | Adjustable output                         | Expensive                                                                          |
+    | Small footprint                           | More pins than other options (due to adjustment function), increases assembly time |
+    |                                           |                                                                                    |
+
+3. TPS62172DSGR buck switching regulator
+
+    ![](296~4214840~DBV~6_sml.webp)
+
+    * $1.76/each
+    * [link to product](https://www.digikey.com/en/products/detail/texas-instruments/LMR50410Y5FQDBVRQ1/13563002)
+
+    | Pros                                      | Cons                                                                   |
+    | ----------------------------------------- | ---------------------------------------------------------------------- |
+    | Very compact                              | Expensive                                                              |
+    | Appropriate current rating                |                                                                        |
+
+The AP63205WU-7 will be selected due to it's shared footprint with the selected 3.3V regulator and it's wide input voltage.
 
 ### Microcontroller Selection
 
