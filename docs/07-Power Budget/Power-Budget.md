@@ -1,2 +1,4 @@
 ### Power Budget
-This section is WIP. The datasheet for the ESP32 module lists 500mA as the recommended minimum, which the chosen power supply well exceeds.
+The power budget for subsystem A3 is calculated in the following chart:
+![](PBV1.png)
+The spreadsheet used to calculate this is available as a [*Microsoft Excel*](PBV1.xlsx) or [*Open Document Format*](PBV1.ods) sheet.
