@@ -12,6 +12,7 @@ The following sections document the requirements that the this module need to fu
 | Wireless Communication | Able to receive data over bluetooth | Send and receive bluetooth data | No |
 | UART bus communication | Able to route, send and recieve messages through shared UART bus | Able to route, send and recieve messages through shared UART bus | No |
 | Power sharing | Can recieve power from a pluggable terminal or pin header | Recieves power through the shared UART bus | Yes |
+| Battery power | Can use or distribute battery power | Capable of battery management/charging | Yes |
 | Central control | Relays human inputs recieved from A2 to necessary subsystems | Translates human inputs recieved from A2 to commands for necessary subsystems with PID | No |
 | Debugging | Has LEDs and test pads for debugging | Has LEDs and test pads for debugging | No |
 
