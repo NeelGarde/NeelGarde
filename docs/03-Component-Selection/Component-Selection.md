@@ -6,7 +6,7 @@ title: Module's Selected Major Components
 
 The following sections are the selected major components necessary for subsystem A3:
 
-### Power Management
+### 3.3V Power Regulator
 
 1. AP63203WU-7 buck switching regulator
 
@@ -46,7 +46,6 @@ The following sections are the selected major components necessary for subsystem
     | Very compact                              | Leadless design requires additional assembly equipment                 |
     | Low noise                                 |                                                                        |
 
-The AP63203WU-7 will be selected due to it's affordability, ease of assembly, and wide input voltage level.
 
 ### Microcontroller Selection
 

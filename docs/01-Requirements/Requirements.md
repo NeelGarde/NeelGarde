@@ -11,8 +11,13 @@ The following sections document the requirements that the this module need to fu
 | Surface mounted microcontroller | ESP32 | ESP32 | No |
 | Wireless Communication | Able to receive data over bluetooth | Send and receive bluetooth data | No |
 | UART bus communication | Able to route, send and recieve messages through shared UART bus | Able to route, send and recieve messages through shared UART bus | No |
+<<<<<<< HEAD
 | Power sharing | Can recieve power from a pluggable terminal or pin header | Recieves power through the shared UART bus | Yes |
 | Battery power | Can use or distribute battery power | Capable of battery management/charging | Yes |
+=======
+| Power sharing | Can recieve power from a pluggable terminal or pin header | Distributes power through 8-pin and high-current headers | Yes |
+| Battery Management | Can deliver power via a battery | Can regulate battery discharge rate and charge the battery as well | Yes |
+>>>>>>> a1bcc1732ed298abc3fd78472ce59476c2d9a247
 | Central control | Relays human inputs recieved from A2 to necessary subsystems | Translates human inputs recieved from A2 to commands for necessary subsystems with PID | No |
 | Debugging | Has LEDs and test pads for debugging | Has LEDs and test pads for debugging | No |
 
