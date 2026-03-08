@@ -909,11 +909,14 @@
   <h1>Module Schematic</h1>
 
 <h2 id="overview">Overview</h2>
-<p>This schematic is design to function as an onboard bluetooth low energy server for connecting to a remote control unit.</p>
+<p>This schematic is design to function as an onboard bluetooth low energy server for connecting to a remote control unit, as well as supply battery power to the rest of the vehicle's subsystems.
+The BLE systems are handled by the ESP-32-WROOM module alone.
+Power distribution is handled by a batter charging circuit, where an IC switches 5 MOSFETs for safe charging and discharging of the battery. A barrel jack is used for charging the battery, and can be used to power the whole system if needed. 
+As a redundancy for the charging circuit failing, a solder bridge allows the battery power to be sent directly to the necessary circuits without going through the charging circuit. If using a single-cell battery without charging it, this is safe to do.</p>
 <p><a class="glightbox" data-type="image" data-width="auto" data-height="auto" href="../A3V1.png" data-desc-position="bottom"><img alt="schematic" height:_300_="height:&quot;300;&quot;" src="../A3V1.png" style="style" width:_350_="width:&quot;350&quot;"></a>
 <strong>Figure ##:</strong> Showing Subsystem A3's schematic</p>
 <h2 id="resouces">Resouces</h2>
-<p>The schematic as a PDF download is available <a href="../A3V1.pdf"><em>here</em></a>, and the Zip folder of the project <a href="../A3V1.zip"><em>here</em></a>.</p>
+<p>The schematic as a PDF download is available <a href="../A3V1.pdf"><em>here</em></a>, and the zip folder of the project <a href="../A3V1.zip"><em>here</em></a>.</p>
 
 
 
