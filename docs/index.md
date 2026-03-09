@@ -17,6 +17,15 @@ for<br>
 ## Introduction
 
 * **This datasheet will contain all necessary information for Neel Garde's module in EGR314.**
+This datasheet contains the following sections:
+[01 - Requirements](https://neelgarde.github.io/NeelGarde/01-Requirements/Requirements/)
+[02 - Block Diagram](https://neelgarde.github.io/NeelGarde/02-Block-Diagram/Block-Diagram/)
+[03 - Component Selection](https://neelgarde.github.io/NeelGarde/03-Component-Selection/Component-Selection/)
+[04 - BOM](https://neelgarde.github.io/NeelGarde/04-BOM/BOM/)
+[05 - Schematic](https://neelgarde.github.io/NeelGarde/05-Schematic/schematic/)
+[06 - PCB]()
+[07 - Power Budget](https://neelgarde.github.io/NeelGarde/07-Power%20Budget/Power-Budget/)
+[Appendix](https://neelgarde.github.io/NeelGarde/Appendix/)
 
 ### Project Summary
 
