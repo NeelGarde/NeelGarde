@@ -60,7 +60,7 @@ To perform the necessary bluetooth functions, the aioble library will be used. T
 ### Battery
 No commercially available single cell has sufficient capacity to power the whole drone (estimated 5A peak theoretical draw) for a reasonable time of at least an hour. 12V is our maximum voltage, but the only sufficient cell type that can deliver this is lead-acid, which are heavy and expensive. As such our options are to use a pack of multiple cells. This course's structure does not allow packs with management circuitry built-in, so 12V Li-ion packs with a BMS are not an option. Options will be restricted to disposable packs or externally rechargable packs without an onboard BMS.
 
-A more mature version of this system could integrate it's own charging and battery control circuit (using a BQ24616RGER IC)[A3V3.pdf]. The whole project for this proposed system can be downloaded (here)[A3V3.zip]. This project was significantly too complex for the remaining time in the course, and should have been proposed as the primary functionality from the beginning.
+A more mature version of this system could integrate it's own charging and battery control circuit [using a BQ24616RGER IC](A3V3.pdf). The whole project for this proposed system can be downloaded [here](A3V3.zip). This project was significantly too complex for the remaining time in the course, and should have been proposed as the primary functionality from the beginning.
 
 1. Amazon Basics 8-pack 9V batteries
 
@@ -78,9 +78,9 @@ A more mature version of this system could integrate it's own charging and batte
 
     ![](tenergybattery.jpg)
 
-    * $43.98 total - $$21.99 for battery pack, $21.99 for charger.
-    * [link to battery pack](https://www.amazon.com/Tenergy-Capacity-Rechargeable-Replacement-Equipments/dp/B077Y9HNTF)
-    * [link to charger](https://www.amazon.com/Tenergy-RC-Airplanes-Batteries-Compatible-Alligator/dp/B001AVUAVC)
+    * $43.98 total - $21.99 for battery pack, $21.99 for charger.<br>
+    * [link to battery pack](https://www.amazon.com/Tenergy-Capacity-Rechargeable-Replacement-Equipments/dp/B077Y9HNTF)<br>
+    * [link to charger](https://www.amazon.com/Tenergy-RC-Airplanes-Batteries-Compatible-Alligator/dp/B001AVUAVC)<br>
 
     | Pros                                                       | Cons                                                                   |
     | ---------------------------------------------------------- | ---------------------------------------------------------------------- |
@@ -92,7 +92,7 @@ A more mature version of this system could integrate it's own charging and batte
     
     ![](alkaline.jpg)
 
-    *$6.20/each
+    * $6.20/each
     * [link to product](https://www.digikey.com/en/products/detail/energizer-battery-company/EN91F2X4/704913)
 
     | Pros                                                        | Cons                                                                  |
