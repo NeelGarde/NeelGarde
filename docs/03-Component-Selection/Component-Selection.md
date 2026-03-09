@@ -78,7 +78,7 @@ A more mature version of this system could integrate it's own charging and batte
 
     ![](tenergybattery.jpg)
 
-    * $43.98 total - $21.99 for battery pack, $21.99 for charger.<br>
+    * \$43.98 total - \$21.99 for battery pack, $21.99 for charger.<br>
     * [link to battery pack](https://www.amazon.com/Tenergy-Capacity-Rechargeable-Replacement-Equipments/dp/B077Y9HNTF)<br>
     * [link to charger](https://www.amazon.com/Tenergy-RC-Airplanes-Batteries-Compatible-Alligator/dp/B001AVUAVC)<br>
 
