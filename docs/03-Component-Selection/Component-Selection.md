@@ -58,9 +58,6 @@ Subsystem A3's role on the team is to provide a BLE GATT server onboard the robo
 
 To perform the necessary bluetooth functions, the aioble library will be used. This library provides a wrapper over MicroPython's bluetooth API, making development simpler and more reliable. This library allows modules for client and server to be loaded individually, reducing the program size.
 
-### Power Budget
-This section is WIP. The datasheet for the ESP32 module lists 500mA as the recommended minimum, which the chosen power supply well exceeds.
-
 
 
 
