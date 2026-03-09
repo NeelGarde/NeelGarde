@@ -6,7 +6,7 @@ tags:
 ---
 
 ## Bill of Materials
-The bill of materials for the subsystem is listed here.
+The bill of materials can be downloaded as an [open document format](A3V4BOM.ods) spreadsheet (recommended for readability with LibreOffice & Microsoft Excel) or a [csv](A3V4BOM.csv) file.
 
 |Part Name/Description                                               |Order Qty|Surplus|Unit Cost|Cost  |Manufacturer               |Mfg. Part Num.               |Supplier|Supplier Part Num.         |Supplier Link                                                                                                                |Reference          |Design Qty|Value                 |Footprint                                                |Datasheet                                                                                                       |
 |--------------------------------------------------------------------|---------|-------|---------|------|---------------------------|-----------------------------|--------|---------------------------|-----------------------------------------------------------------------------------------------------------------------------|-------------------|----------|----------------------|---------------------------------------------------------|----------------------------------------------------------------------------------------------------------------|
