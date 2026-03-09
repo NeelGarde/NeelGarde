@@ -35,4 +35,4 @@ This datasheet contains the following sections:<br>
 ### My Contribution
 
 * This datasheet focuses on my contribution to the project, subsystem A3. Subsystem A3 forms the ROV's onboard BLE server, which connects to the BLE client (subsystem A2) on the controller unit.
-* To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://embedded-systems-design.github.io/EGR314DataSheetTemplate/04-BOM/BOM/) section of the datasheet.
+* To review the details listed of the material used to construct the subsection, you can review it in the ["BOM"](https://neelgarde.github.io/NeelGarde/04-BOM/BOM/) section of the datasheet.
