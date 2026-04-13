@@ -12,6 +12,13 @@ A spare 8-pin header is provided for redundancy. A solder bridge is used to cont
 ![schematic](A3V4.png){style width:"350" height:"300;"}
 **Figure ##:** Showing Subsystem A3's schematic
 
+PCB design:
+Front:<br>
+![](topPCB.png)
+<br>
+Back:<br>
+![](backPCB.png)
+
 
 ## Resouces
 
