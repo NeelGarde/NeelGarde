@@ -1030,6 +1030,7 @@
 
 <h2 id="overview">Overview</h2>
 <p>This page lists all possible API calls that subsystem A3 can handle. Subsystem A3 acts as the onboard side of the bluetooth relay connecting the handheld controller to the boat. As such, all messages sent to or from the controller are sent/recieved with a type 10 message to/from A2, and then sent as their original message type to their destination (using the original message's sender/reciever IDs). Bluetooth Heartbeat and Error APIs exist to warn the user of a disconnected wireless link, and stop boat propulsion/steering. The full-team Rollcall API is used for debugging faulty communications.</p>
+<p>The software for A3 can be downloaded <a href="../201A3_BLE_server.zip">here</a>. The software requires the Micropython firmware for ESP32 and the aioble library (available through the mip package manager). File text encoding is Unix-style UTF-8 Unicode. If you notice issues with text layout, please ensure only UTF-8 Unicode is being used or convert to your system (Microsoft Windows and Apple MacOS both use modified encoding)</p>
 <h3 id="bluetooth-control-apis">Bluetooth Control APIs</h3>
 <p>Message type 9 - Bluetooth Error:</p>
 <table>
